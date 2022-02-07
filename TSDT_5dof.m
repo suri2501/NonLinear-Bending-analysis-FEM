@@ -11,7 +11,7 @@ nglb = 3;               % Full Gauss-Legendre quadrature for bending
 [pointb,weightb]=GaussQuadrature(nglb);     % sampling points & weights
 
 %  For shear stiffness
-ngls = 3;                 % Reduced Gauss-Legendre quadrature for shear 
+ngls = 2;                 % Reduced Gauss-Legendre quadrature for shear 
 [points,weights] = GaussQuadrature(ngls);   % sampling points & weights
 
 %--------------------------------------------------------------------------
